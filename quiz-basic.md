@@ -11,30 +11,30 @@
 
 | 名词           | 是什么               |
 | :------------- | :------------------- |
-| Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
+| Node.js        | 是 可以用来编写前端与后端中间层的中间件，前端访问后端数据可以用node先处理一下再返回给前端。也可以编写后端代码。|
+| npm            | 是 nodejs下载时一起安装的模块管理工具，可以用来下载删除依赖。|
 | npx            | 是 ……                |
 | nvm            | 是 ……                |
 | nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
+| yarn           | 是 js的模块管理工具，较npm会更快一些。|
+| React          | 是 一个前端的框架可以减少对dom的直接操作，可以组件式开发。|
+| Vue            | 是 一个前端的框架，声明式渲染，mvvm响应式数据，编写模板通过渲染函数生成抽象语法树在生成虚拟dom树最后渲染真正的dom等。|
 | Flux           | 是 ……                |
 | Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
+| MVVM           | 是 采用订阅发布模式进行数据的响应式绑定，当数据发生变化自动刷新视图，当视图层发生变化改变数据。|
 | TDD            | 是 ……                |
 | Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
+| node_modules   | 是 里面存放着npm等工具下载的相关依赖包。|
+| package.json   | 是 node的配置文件，里面描述了相关的信息如依赖信息等。|
+| ECMAScript     | 是 js的语法规范标准。|
 | Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
+| Babel          | 是 js的代码编译器，可以把es6以上的代码编程成es5.|
+| Webpack        | 是 前端的资源打包工具，可以把文件分类打包减少http请求，并且便于前端静态资源资源的缓存，而且方便依赖的管理。|
+| SSR            | 是 可以提高单页面应用的首屏加载速度。|
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
 | PWA            | 是 ……                |
-| V8             | 是 ……                |
+| V8             | 是 使用c++编写的js引擎。|
 | libuv          | 是 ……                |
 | Stack Overflow | 是 ……                |
 | Deno           | 是 ……                |
@@ -49,4 +49,4 @@
 > - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
 > - 掘金、知乎
 
-答：
+答：掘金，慕课网，极客时间等。
